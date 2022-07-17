@@ -4,6 +4,7 @@ package com.devsuperior.dsmeta.controllers;
 OS ENDPOINTS QUE O FRONTEND VAI PRECISAR PARA ACESSAR O BACKEND */
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.devsuperior.dsmeta.entities.Sale;
 import com.devsuperior.dsmeta.services.SaleService;
+import com.devsuperior.dsmeta.services.SmsService;
 
 @RestController
 @RequestMapping(value = "sales")
