@@ -3,9 +3,9 @@ import './styles.css'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useEffect, useState } from "react";
-import axios from 'axios';
-import { BASE_URL } from './../../utils/request';
-import { Sale } from "../../models/sale";
+//import axios from 'axios';
+//import { BASE_URL } from './../../utils/request';
+//import { Sale } from "../../models/sale";
 
 /* Instalação datepicker --> yarn add react-datepicker@4.8.0 @types/react-datepicker@4.4.2 */
 
